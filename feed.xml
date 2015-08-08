@@ -7,30 +7,30 @@
 
 <title type="text">Easy Concepts</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2015-08-07T23:48:13+05:30</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://anchalrani.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://anchalrani.github.io/" />
+<updated>2015-08-08T14:39:20+05:30</updated>
+<id>http://anchalrani.github.io/</id>
 <author>
   <name>Anchal Rani</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://anchalrani.github.io/</uri>
   <email>anchalrani@outlook.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Introduction to Databases]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/database/introduction-to-databases"/>
-  <id>http://localhost:4000/database/introduction-to-databases</id>
+  <link rel="alternate" type="text/html" href="http://anchalrani.github.io/database/introduction-to-databases"/>
+  <id>http://anchalrani.github.io/database/introduction-to-databases</id>
   <published>2015-08-05T00:00:00+05:30</published>
   <updated>2013-05-31T00:00:00-00:00</updated>
   
   <author>
     <name>Anchal Rani</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://anchalrani.github.io</uri>
     <email>anchalrani@outlook.com</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#query" term="query" /><category scheme="http://localhost:4000/tags/#manager" term="manager" /><category scheme="http://localhost:4000/tags/#schema" term="schema" /><category scheme="http://localhost:4000/tags/#data" term="data" /><category scheme="http://localhost:4000/tags/#independence" term="independence" />
+  <category scheme="http://anchalrani.github.io/tags/#query" term="query" /><category scheme="http://anchalrani.github.io/tags/#manager" term="manager" /><category scheme="http://anchalrani.github.io/tags/#schema" term="schema" /><category scheme="http://anchalrani.github.io/tags/#data" term="data" /><category scheme="http://anchalrani.github.io/tags/#independence" term="independence" />
   <content type="html">
   
     &lt;h1 id=&quot;database&quot;&gt;Database&lt;/h1&gt;
@@ -38,7 +38,7 @@
 &lt;p&gt;A Database Management System is a collection of interelated data &amp;amp; set of Programs to access those data. It provides a way to store &amp;amp; retrieve information that is both convenient and efficient.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/database/introduction-to-databases&quot;&gt;Introduction to Databases&lt;/a&gt; was originally published by Anchal Rani at &lt;a href=&quot;http://localhost:4000&quot;&gt;Easy Concepts&lt;/a&gt; on August 05, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://anchalrani.github.io/database/introduction-to-databases&quot;&gt;Introduction to Databases&lt;/a&gt; was originally published by Anchal Rani at &lt;a href=&quot;http://anchalrani.github.io&quot;&gt;Easy Concepts&lt;/a&gt; on August 05, 2015.&lt;/p&gt;</content>
 </entry>
 
 </feed>
