@@ -9,13 +9,35 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://anchalrani.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://anchalrani.github.io/" />
-<updated>2015-09-05T22:42:59+05:30</updated>
+<updated>2015-09-05T23:03:05+05:30</updated>
 <id>http://anchalrani.github.io/</id>
 <author>
   <name>Anchal Rani</name>
   <uri>http://anchalrani.github.io/</uri>
   <email>anchalrani@outlook.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Basic terms in Software TEsting]]></title>
+  <link rel="alternate" type="text/html" href="http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing"/>
+  <id>http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing</id>
+  <published>2015-09-05T00:00:00+05:30</published>
+  <updated>2015-09-05T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Anchal Rani</name>
+    <uri>http://anchalrani.github.io</uri>
+    <email>anchalrani@outlook.com</email>
+  </author>
+  <category scheme="http://anchalrani.github.io/tags/#functional" term="functional" /><category scheme="http://anchalrani.github.io/tags/#testing" term="testing" /><category scheme="http://anchalrani.github.io/tags/#alpha" term="alpha" /><category scheme="http://anchalrani.github.io/tags/#beta" term="beta" /><category scheme="http://anchalrani.github.io/tags/#regression" term="regression" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;basic-terms&quot;&gt;Basic Terms&lt;/h1&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing&quot;&gt;Basic terms in Software TEsting&lt;/a&gt; was originally published by Anchal Rani at &lt;a href=&quot;http://anchalrani.github.io&quot;&gt;Easy Concepts&lt;/a&gt; on September 05, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -67,32 +89,36 @@ You must be wondering when&lt;/p&gt;
 &lt;p&gt;Let us start with first one&lt;/p&gt;
 
 &lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Data redundancy and inconsistency&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Different programmers may create several files and same information may be duplicated in several places.This redundancy may lead to higher storage and cost. And also it creates inconsistency that is all files copies may have different values, which must be equal.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Difficulty in accessing data&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let us assume that we have information about each student in one text file each in a system. Now if we want to access names of students who study in 5 class and who have paid there fees. For this we will have to open each file and note down the name of the students who satisfy the above condition. It becomes very difficult to perform such operations on 100s and 1000s of students.&lt;/p&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Data redundancy and inconsistency
-Different programmers may create several files and same information may be duplicated in several places.This redundancy may lead to higher storage and cost. And also it creates inconsistency that is all files copies may have different values, which must be equal.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Difficulty in accessing data
-Let us assume that we have information about each student in one text file each in a system. Now if we want to access names of students who study in 5 class and who have paid there fees. For this we will have to open each file and note down the name of the students who satisfy the above condition. It becomes very difficult to perform such operations on 100s and 1000s of students.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data Isolation 
+    &lt;p&gt;&lt;strong&gt;Data Isolation&lt;/strong&gt; 
 Because data are scattered in various files , and files may be in different formats and due to this writing new application programs to retrieve the appropriate data is difficult.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Integrity Problems
+    &lt;p&gt;&lt;strong&gt;Integrity Problems&lt;/strong&gt;
 The data values stored in the database must abide by certain consistency constraints. For example, we want that minimum balance in a account must be Rs. 2000, it must never get below the specified amount. Developers enforce these constraints using various application programs. But if new constraints are added it becomes complex to change the code when it is for different types of file having different formats.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Atomicity
+    &lt;p&gt;&lt;strong&gt;Atomicity&lt;/strong&gt;
 Let us take example of a transaction to explain this property. Suppose we want to transfer Rs.400 from account A to account B. If an execution failure occurs in between the transaction, system must assure that either the transaction occurs completely or it must restore the values as were before in both the accounts. Otherwise it might happen that account A is debited Rs.400 but account B is not credited with it. It means that the transaction must happen in its entirety or not at all. It is difficult to maintain atomicity in file system.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Concurrent access anomalies
+    &lt;p&gt;&lt;strong&gt;Concurrent access anomalies&lt;/strong&gt;
 When two users access the same file, there is possibility that the file may be left in an incorrect or inconsistent state. For example, two files are being edited by two users say quantity of a product is 200 . Now at the same time user A reduces it by 10 and user B reduces it by 20. In such a case if the system edits for only user A quanity becomes 190 or if it takes user B quantity becomes 180. But in either case only one transaction is read by the system. The value for quantity must have been 170 because actually the product quantity is reduced by 30.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Security
+    &lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;
 Each user must not be able to view all the details of the database for it may be irrelevant for him and it may lead to unauthorised access. For example, a student must be able to see information regarding his course and marks, but not the salary status of the faculties on a university website. But since application programs are added to the file processing systems in an ad hoc manner, enforcing such security constraints is diificult.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;

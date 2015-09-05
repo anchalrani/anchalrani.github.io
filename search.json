@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Basic terms in Software TEsting",
+		  "category"   : "Software Testing",
+		  "url"        : "http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing",
+		  "date"       : "2015-09-05 00:00:00 +0530",
+		  "shortdate"  : "September 05, 2015"
+		} ,
+	
+		{
 		  "title"      : "Introduction to Databases",
 		  "category"   : "Database",
 		  "url"        : "http://anchalrani.github.io/database/introduction-to-databases",
