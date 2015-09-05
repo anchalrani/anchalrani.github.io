@@ -163,28 +163,29 @@ You must be wondering when</p>
 
 <p>Because data are scattered in various files , and files may be in different formats and due to this writing new application programs to retrieve the appropriate data is difficult.</p>
 
-<ol>
+<ul>
   <li><strong>Integrity Problems</strong></li>
-</ol>
+</ul>
 
 <p>The data values stored in the database must abide by certain consistency constraints. For example, we want that minimum balance in a account must be Rs. 2000, it must never get below the specified amount. Developers enforce these constraints using various application programs. But if new constraints are added it becomes complex to change the code when it is for different types of file having different formats.</p>
 
-<ol>
+<ul>
   <li><strong>Atomicity</strong></li>
-</ol>
+</ul>
 
 <p>Let us take example of a transaction to explain this property. Suppose we want to transfer Rs.400 from account A to account B. If an execution failure occurs in between the transaction, system must assure that either the transaction occurs completely or it must restore the values as were before in both the accounts. Otherwise it might happen that account A is debited Rs.400 but account B is not credited with it. It means that the transaction must happen in its entirety or not at all. It is difficult to maintain atomicity in file system.</p>
 
-<ol>
-  <li>
-    <p><strong>Concurrent access anomalies</strong>
-When two users access the same file, there is possibility that the file may be left in an incorrect or inconsistent state. For example, two files are being edited by two users say quantity of a product is 200 . Now at the same time user A reduces it by 10 and user B reduces it by 20. In such a case if the system edits for only user A quanity becomes 190 or if it takes user B quantity becomes 180. But in either case only one transaction is read by the system. The value for quantity must have been 170 because actually the product quantity is reduced by 30.</p>
-  </li>
-  <li>
-    <p><strong>Security</strong>
-Each user must not be able to view all the details of the database for it may be irrelevant for him and it may lead to unauthorised access. For example, a student must be able to see information regarding his course and marks, but not the salary status of the faculties on a university website. But since application programs are added to the file processing systems in an ad hoc manner, enforcing such security constraints is diificult.</p>
-  </li>
-</ol>
+<ul>
+  <li><strong>Concurrent access anomalies</strong></li>
+</ul>
+
+<p>When two users access the same file, there is possibility that the file may be left in an incorrect or inconsistent state. For example, two files are being edited by two users say quantity of a product is 200 . Now at the same time user A reduces it by 10 and user B reduces it by 20. In such a case if the system edits for only user A quanity becomes 190 or if it takes user B quantity becomes 180. But in either case only one transaction is read by the system. The value for quantity must have been 170 because actually the product quantity is reduced by 30.</p>
+
+<ul>
+  <li><strong>Security</strong></li>
+</ul>
+
+<p>Each user must not be able to view all the details of the database for it may be irrelevant for him and it may lead to unauthorised access. For example, a student must be able to see information regarding his course and marks, but not the salary status of the faculties on a university website. But since application programs are added to the file processing systems in an ad hoc manner, enforcing such security constraints is diificult.</p>
 
 <p>Next we are going to study some basic terminologies in Databases.</p>
 
