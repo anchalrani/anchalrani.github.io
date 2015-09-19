@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://anchalrani.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://anchalrani.github.io/" />
-<updated>2015-09-05T23:30:33+05:30</updated>
+<updated>2015-09-20T00:36:32+06:00</updated>
 <id>http://anchalrani.github.io/</id>
 <author>
   <name>Anchal Rani</name>
@@ -22,7 +22,7 @@
   <title type="html"><![CDATA[Basic terms in Software TEsting]]></title>
   <link rel="alternate" type="text/html" href="http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing"/>
   <id>http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing</id>
-  <published>2015-09-05T00:00:00+05:30</published>
+  <published>2015-09-05T00:00:00+06:00</published>
   <updated>2015-09-05T00:00:00-00:00</updated>
   
   <author>
@@ -44,7 +44,7 @@
   <title type="html"><![CDATA[Introduction to Databases]]></title>
   <link rel="alternate" type="text/html" href="http://anchalrani.github.io/database/introduction-to-databases"/>
   <id>http://anchalrani.github.io/database/introduction-to-databases</id>
-  <published>2015-08-05T00:00:00+05:30</published>
+  <published>2015-08-05T00:00:00+06:00</published>
   <updated>2013-05-31T00:00:00-00:00</updated>
   
   <author>
@@ -101,7 +101,7 @@ You must be wondering when&lt;/p&gt;
 &lt;p&gt;Let us assume that we have information about each student in one text file each in a system. Now if we want to access names of students who study in 5 class and who have paid there fees. For this we will have to open each file and note down the name of the students who satisfy the above condition. It becomes very difficult to perform such operations on 100s and 1000s of students.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Data Isolation&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data Isolation&lt;/strong&gt; &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Because data are scattered in various files , and files may be in different formats and due to this writing new application programs to retrieve the appropriate data is difficult.&lt;/p&gt;
