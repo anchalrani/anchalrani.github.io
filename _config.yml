@@ -10,7 +10,7 @@ dropcap:			true
 url:        	 http://anchalrani.github.io
 
 relative_source: ../anchalrani.github.io/
-destination: ../anchalrani.github.io-pages/
+destination: ../anchalrani.github.io-trying/
 # Owner/author information
 owner:
   name:           Anchal Rani
