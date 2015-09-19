@@ -9,6 +9,8 @@ dropcap:			true
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:        	 http://anchalrani.github.io
 
+relative_source: ../anchalrani.github.io/
+destination: ../anchalrani.github.io/
 # Owner/author information
 owner:
   name:           Anchal Rani
@@ -154,4 +156,9 @@ prose:
 
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+username: anchalrani
+repo: anchalrani.github.io
+branch: source
+
+exclude: ["README.md","vendor",".travis.yml","changelog.md","lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
