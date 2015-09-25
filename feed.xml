@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://anchalrani.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://anchalrani.github.io/" />
-<updated>2015-09-25T12:08:05+06:00</updated>
+<updated>2015-09-25T12:35:14+06:00</updated>
 <id>http://anchalrani.github.io/</id>
 <author>
   <name>Anchal Rani</name>
@@ -35,8 +35,13 @@
   
     &lt;h1 id=&quot;let-us-start-with-the-definition-of-software-testing&quot;&gt;Let us Start with the definition of Software Testing.&lt;/h1&gt;
 
-&lt;p&gt;So What is Software Testing?
-Software testing is a process of executing a program or application with the intent of finding the software bugs, errors and faults.&lt;/p&gt;
+&lt;p&gt;So what is &lt;strong&gt;Software Testing&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;Software testing is a process of executing a program or application with the intent of finding the software bugs, errors and faults.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Failure&lt;/strong&gt;: It is the inability of a system or component to perform required function according to its specification.&lt;/li&gt;
+&lt;/ul&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing&quot;&gt;Basic terms in Software TEsting&lt;/a&gt; was originally published by Anchal Rani at &lt;a href=&quot;http://anchalrani.github.io&quot;&gt;Easy Concepts&lt;/a&gt; on September 05, 2015.&lt;/p&gt;</content>
