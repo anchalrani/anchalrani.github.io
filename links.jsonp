@@ -8,11 +8,6 @@ callback([
   {
     "text": "Basic terms in Software TEsting",
     "href": "http://anchalrani.github.io/software%20testing/basic-terms-in-software-testing"
-  } ,
-
-  {
-    "text": "Introduction to Databases new Post",
-    "href": "http://anchalrani.github.io/database/new-post-on-database"
   } 
 
 ])

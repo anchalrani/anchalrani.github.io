@@ -9,35 +9,13 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://anchalrani.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://anchalrani.github.io/" />
-<updated>2015-09-20T23:23:11+06:00</updated>
+<updated>2015-09-25T12:05:28+06:00</updated>
 <id>http://anchalrani.github.io/</id>
 <author>
   <name>Anchal Rani</name>
   <uri>http://anchalrani.github.io/</uri>
   <email>anchalrani@outlook.com</email>
 </author>
-
-
-<entry>
-  <title type="html"><![CDATA[Introduction to Databases new Post]]></title>
-  <link rel="alternate" type="text/html" href="http://anchalrani.github.io/database/new-post-on-database"/>
-  <id>http://anchalrani.github.io/database/new-post-on-database</id>
-  <published>2015-09-20T00:00:00+06:00</published>
-  <updated>2015-09-20T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Anchal Rani</name>
-    <uri>http://anchalrani.github.io</uri>
-    <email>anchalrani@outlook.com</email>
-  </author>
-  <category scheme="http://anchalrani.github.io/tags/#atomicity" term="atomicity" /><category scheme="http://anchalrani.github.io/tags/#integrity" term="integrity" /><category scheme="http://anchalrani.github.io/tags/#redundancy" term="redundancy" /><category scheme="http://anchalrani.github.io/tags/#inconsistency" term="inconsistency" /><category scheme="http://anchalrani.github.io/tags/#ATM" term="ATM" /><category scheme="http://anchalrani.github.io/tags/#data" term="data" /><category scheme="http://anchalrani.github.io/tags/#isolation" term="isolation" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;database&quot;&gt;Database&lt;/h1&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://anchalrani.github.io/database/new-post-on-database&quot;&gt;Introduction to Databases new Post&lt;/a&gt; was originally published by Anchal Rani at &lt;a href=&quot;http://anchalrani.github.io&quot;&gt;Easy Concepts&lt;/a&gt; on September 20, 2015.&lt;/p&gt;</content>
-</entry>
 
 
 <entry>
