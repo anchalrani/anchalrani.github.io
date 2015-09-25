@@ -9,4 +9,7 @@ imagefeature: cover10.jpg
 comments: true
 share: true
 ---
-# Basic Terms
+# Let us Start with the definition of Software Testing.
+
+So What is Software Testing?
+Software testing is a process of executing a program or application with the intent of finding the software bugs, errors and faults.
