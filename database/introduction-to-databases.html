@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INTRODUCTION TO DATABASES &vert; EASY CONCEPTS</title>
+<meta name="description" content="GET TECH GYAAN ">
+<meta name="keywords" content="atomicity, integrity, redundancy, inconsistency, ATM, data, isolation">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introduction to Databases">
+<meta property="og:description" content="GET TECH GYAAN ">
+<meta property="og:url" content="http://anchalrani.github.io/database/introduction-to-databases">
+<meta property="og:site_name" content="Easy Concepts">
+<meta property="og:image" content="http://anchalrani.github.io/images/cover6.jpg">
+
+
+
+
+
+<link rel="canonical" href="http://anchalrani.github.io/database/introduction-to-databases">
+<link href="http://anchalrani.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Easy Concepts Feed">
+<link rel="author" href="https://plus.google.com/110796915762914337471/?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://anchalrani.github.io/assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="http://anchalrani.github.io/assets/css/vendor/normalize.css">
+    <link rel="stylesheet" href="http://anchalrani.github.io/assets/css/vendor/nprogress.css">
+    <link rel="stylesheet" href="http://anchalrani.github.io/assets/css/vendor/foundation.min.css">
+    <link rel="stylesheet" href="http://anchalrani.github.io/assets/css/style.css">
+    <link rel="stylesheet" href="http://anchalrani.github.io/assets/css/post.css">
+
+
+
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://anchalrani.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://anchalrani.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://anchalrani.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://anchalrani.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://anchalrani.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://anchalrani.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}</style>
+</head>
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">  
+
+        <main id="notepad-post-container" class="notepad-post-container intro-effect-sliced" role="main">
+            <header class="notepad-post-header">
+                <div class="bg-img"></div>
+                
+                <div class="notepad-post-menu-header">
+
+                    <a class="notepad-blog-logo" href="http://anchalrani.github.io">
+                        <img src="http://anchalrani.github.io/images/icon.png" alt="Blog Logo" />
+                    </a>
+
+                <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
+        <a href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
+            <a href="#"><i class="fa fa-times"></i></a>
+        </li>
+
+            <li>
+                    <a href="http://anchalrani.github.io/">Home</a>
+                 </li>
+
+            <li>
+                    <a href="http://anchalrani.github.io/featured">Featured Posts</a>
+                 </li>
+
+            <li>
+                    <a href="http://anchalrani.github.io/categories">Categories</a>
+                 </li>
+
+            <li>
+                    <a href="http://anchalrani.github.io/about">About</a>
+                 </li>
+            
+           <li><a href="http://anchalrani.github.io/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </ul>
+
+</div>
+            </div>
+
+            <div class="notepad-post-title bg-check">
+                <h1>Introduction to Databases</h1>
+                <p>by <strong>Anchal Rani</strong> &#8212; on <a href="http://anchalrani.github.io/tags/index.html#atomicity" data-toggle="tooltip" title="Posts tagged with atomicity" rel="tag">atomicity</a>&nbsp;&comma;&nbsp;<a href="http://anchalrani.github.io/tags/index.html#integrity" data-toggle="tooltip" title="Posts tagged with integrity" rel="tag">integrity</a>&nbsp;&comma;&nbsp;<a href="http://anchalrani.github.io/tags/index.html#redundancy" data-toggle="tooltip" title="Posts tagged with redundancy" rel="tag">redundancy</a>&nbsp;&comma;&nbsp;<a href="http://anchalrani.github.io/tags/index.html#inconsistency" data-toggle="tooltip" title="Posts tagged with inconsistency" rel="tag">inconsistency</a>&nbsp;&comma;&nbsp;<a href="http://anchalrani.github.io/tags/index.html#ATM" data-toggle="tooltip" title="Posts tagged with ATM" rel="tag">ATM</a>&nbsp;&comma;&nbsp;<a href="http://anchalrani.github.io/tags/index.html#data" data-toggle="tooltip" title="Posts tagged with data" rel="tag">data</a>&nbsp;&comma;&nbsp;<a href="http://anchalrani.github.io/tags/index.html#isolation" data-toggle="tooltip" title="Posts tagged with isolation" rel="tag">isolation</a> <strong><time datetime="2015-08-05T00:00:00+06:00">05 Aug 2015</time></strong></p>
+            </div>
+            <div class="bg-img"></div>
+        </header>
+        <button class="trigger bg-check" data-info="Read more"><span>Trigger</span></button>
+        <img src="http://anchalrani.github.io/images/cover6.jpg" alt="cover-image" />
+
+        <article class="notepad-post-content post">
+            <div><h1 id="database">Database</h1>
+
+<p>A Database is a collection of interrelated data and set of programs to access those data.</p>
+
+<p>It provides a way to store and retrieve database information that is both convenient and efficient.</p>
+
+<p>Do you know that you directly or indirectly access atleast one database daily.
+You must be wondering when</p>
+
+<ol>
+  <li>when you withdraw money from ATM, you are acceding bank’s database.</li>
+  <li>when you are doing reservation on IRCTC website.</li>
+  <li>when you are booking your air ticket online.</li>
+  <li>when you register for courses in any university.</li>
+  <li>when you are shopping online you are aaccessing the sellers database.</li>
+</ol>
+
+<p>You must be thinking why do we need to use database when we can store information in files. It is because we want some anomalies to be removed which exists in file system. These anomalies include</p>
+
+<ol>
+  <li>Data redundancy and inconsistency</li>
+  <li>Difficulty in accessing data</li>
+  <li>Data Isolation</li>
+  <li>Integrity problems</li>
+  <li>Atomicity problems</li>
+  <li>Concurrent access anomalies</li>
+  <li>Security problems</li>
+</ol>
+
+<p>We will study why do these problems arise individually.</p>
+
+<p>Let us start with first one</p>
+
+<ul>
+  <li><strong>Data redundancy and inconsistency</strong></li>
+</ul>
+
+<p>Different programmers may create several files and same information may be duplicated in several places.This redundancy may lead to higher storage and cost. And also it creates inconsistency that is all files copies may have different values, which must be equal.</p>
+
+<ul>
+  <li><strong>Difficulty in accessing data</strong></li>
+</ul>
+
+<p>Let us assume that we have information about each student in one text file each in a system. Now if we want to access names of students who study in 5 class and who have paid there fees. For this we will have to open each file and note down the name of the students who satisfy the above condition. It becomes very difficult to perform such operations on 100s and 1000s of students.</p>
+
+<ul>
+  <li><strong>Data Isolation</strong></li>
+</ul>
+
+<p>Because data are scattered in various files , and files may be in different formats and due to this writing new application programs to retrieve the appropriate data is difficult.</p>
+
+<ul>
+  <li><strong>Integrity Problems</strong></li>
+</ul>
+
+<p>The data values stored in the database must abide by certain consistency constraints. For example, we want that minimum balance in a account must be Rs. 2000, it must never get below the specified amount. Developers enforce these constraints using various application programs. But if new constraints are added it becomes complex to change the code when it is for different types of file having different formats.</p>
+
+<ul>
+  <li><strong>Atomicity</strong></li>
+</ul>
+
+<p>Let us take example of a transaction to explain this property. Suppose we want to transfer Rs.400 from account A to account B. If an execution failure occurs in between the transaction, system must assure that either the transaction occurs completely or it must restore the values as were before in both the accounts. Otherwise it might happen that account A is debited Rs.400 but account B is not credited with it. It means that the transaction must happen in its entirety or not at all. It is difficult to maintain atomicity in file system.</p>
+
+<ul>
+  <li><strong>Concurrent access anomalies</strong></li>
+</ul>
+
+<p>When two users access the same file, there is possibility that the file may be left in an incorrect or inconsistent state. For example, two files are being edited by two users say quantity of a product is 200 . Now at the same time user A reduces it by 10 and user B reduces it by 20. In such a case if the system edits for only user A quanity becomes 190 or if it takes user B quantity becomes 180. But in either case only one transaction is read by the system. The value for quantity must have been 170 because actually the product quantity is reduced by 30.</p>
+
+<ul>
+  <li><strong>Security</strong></li>
+</ul>
+
+<p>Each user must not be able to view all the details of the database for it may be irrelevant for him and it may lead to unauthorised access. For example, a student must be able to see information regarding his course and marks, but not the salary status of the faculties on a university website. But since application programs are added to the file processing systems in an ad hoc manner, enforcing such security constraints is diificult.</p>
+
+<p>Next we are going to study some basic terminologies in Databases.</p>
+
+            </div>
+        </article>
+        <div class="cf"></div>
+        <div class="row text-center">
+            <section class="notepad-post-share">
+                <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Introduction to Databases&quot;%20http://anchalrani.github.io/database/introduction-to-databases%20via%20&#64;"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=http://anchalrani.github.io/database/introduction-to-databases"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="google-icon" href="https://plus.google.com/share?url=http://anchalrani.github.io/database/introduction-to-databases"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </section>
+        </div>
+        <div class="cf"></div>
+        
+            <div class="notepad-author-info">
+                <div class="row">
+                    <section class="notepad-post-author small-12 columns">
+                        
+                            <img src="http://anchalrani.github.io/images/avatar.jpg" class="notepad-post-author-avatar" alt="Anchal Rani's photo">
+                        
+                        
+                            <span class="author-label">Author</span>
+                            <h1>Anchal Rani</h1>
+                        
+                        
+                            <p><a href="mailto:anchalrani@outlook.com" class="author-website">anchalrani@outlook.com</a></p>
+                        
+                        
+                            <p>Life is Beautiful</p>
+                        
+                    </section>
+                </div>
+            </div> 
+        
+        <div class="cf"></div>
+        
+        <section class="notepad-disqus row">
+    <div class="small-12 columns">
+        <h1 class="notepad-comments-header">Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'getechgyaan'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+        <div class="cf"></div>
+
+    <footer class="notepad-site-footer">
+    <div class="copyright">
+         <section>All content copyright <a href="http://anchalrani.github.io/about">Anchal Rani</a> &copy; 2016 &bull; All rights reserved.</section>
+         <section> <a class="icon-ghost" href="https://jekyllrb.com/"></a></section>
+    </div>
+    <div class="social-icons">
+        
+        
+        
+        <a href="https://plus.google.com/110796915762914337471/">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+        
+        <a href="http://github.com/anchalrani">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+        <a href="http://facebook.com/anchalrani995">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        
+    </div>
+    
+    <div class="cf"></div>
+</footer> 
+</main>    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://anchalrani.github.io/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="http://anchalrani.github.io/assets/js/vendor/modernizr.js"></script>
+    <script src="http://anchalrani.github.io/assets/js/foundation.min.js"></script>
+    <script src="http://anchalrani.github.io/assets/js/vendor/background-check.js"></script>
+    <script src="http://anchalrani.github.io/assets/js/vendor/post-header-animations.js"></script>
+    <script src="http://anchalrani.github.io/assets/js/notepad.js"></script>
+    <script src="http://anchalrani.github.io/assets/js/scripts.min.js"></script>
+    <script src="http://anchalrani.github.io/assets/js/vendor/nprogress.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+    <script type='text/javascript'>console.log("HMFaysal Notepad Theme Version 2.0");</script>
+    <script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39365944-7', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+<script>NProgress.start();var interval=setInterval(function(){NProgress.inc()},1000);jQuery(window).load(function(){clearInterval(interval);NProgress.done()});jQuery(window).unload(function(){NProgress.start()});</script> 
+</body>
+</html>

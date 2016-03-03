@@ -13,6 +13,11 @@ callback([
   {
     "text": "starting with network and data communications",
     "href": "http://anchalrani.github.io/network%20and%20data%20communications/starting-with-network-and-data-communications"
+  } ,
+
+  {
+    "text": "Speech Recogntion",
+    "href": "http://anchalrani.github.io/automatic%20speech%20recognition/automatic-speech-recognition"
   } 
 
 ])

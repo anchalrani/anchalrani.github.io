@@ -6,7 +6,7 @@
     
     
     <url>
-        <loc>http://anchalrani.github.io/404.html</loc>
+        <loc>http://anchalrani.github.io/404</loc>
     </url>
     
     <url>
@@ -26,7 +26,7 @@
     </url>
     
     <url>
-        <loc>http://anchalrani.github.io/index.html</loc>
+        <loc>http://anchalrani.github.io/</loc>
     </url>
     
     <url>
@@ -46,6 +46,10 @@
     </url>
     
 
+    
+    <url>
+        <loc>http://anchalrani.github.io/automatic%20speech%20recognition/automatic-speech-recognition</loc>
+    </url>
     
     <url>
         <loc>http://anchalrani.github.io/network%20and%20data%20communications/starting-with-network-and-data-communications</loc>

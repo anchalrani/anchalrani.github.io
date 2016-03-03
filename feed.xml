@@ -3,19 +3,88 @@
 
 
 
-  
-
 <title type="text">Easy Concepts</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://anchalrani.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://anchalrani.github.io/" />
-<updated>2015-11-18T22:44:40+06:00</updated>
+<updated>2016-03-03T18:18:43+06:00</updated>
 <id>http://anchalrani.github.io/</id>
 <author>
   <name>Anchal Rani</name>
   <uri>http://anchalrani.github.io/</uri>
   <email>anchalrani@outlook.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Speech Recogntion]]></title>
+  <link rel="alternate" type="text/html" href="http://anchalrani.github.io/automatic%20speech%20recognition/automatic-speech-recognition"/>
+  <id>http://anchalrani.github.io/automatic%20speech%20recognition/automatic-speech-recognition</id>
+  <published>2016-03-03T00:00:00+06:00</published>
+  <updated>2016-03-03T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Anchal Rani</name>
+    <uri>http://anchalrani.github.io</uri>
+    <email>anchalrani@outlook.com</email>
+  </author>
+  <category scheme="http://anchalrani.github.io/tags/#atomicity" term="atomicity" /><category scheme="http://anchalrani.github.io/tags/#integrity" term="integrity" /><category scheme="http://anchalrani.github.io/tags/#redundancy" term="redundancy" /><category scheme="http://anchalrani.github.io/tags/#inconsistency" term="inconsistency" /><category scheme="http://anchalrani.github.io/tags/#ATM" term="ATM" /><category scheme="http://anchalrani.github.io/tags/#data" term="data" /><category scheme="http://anchalrani.github.io/tags/#isolation" term="isolation" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;automatic-speech-recognition&quot;&gt;Automatic Speech Recognition&lt;/h1&gt;
+&lt;p&gt;When you start with this be ready for a big challenge it includes most areas of mathematics, machine learning, 
+signal processing, lingustics of which you need not only have to have a an overview but a detailed idea how each 
+area related to speech works with speech recognition.&lt;/p&gt;
+
+&lt;p&gt;Now since we are learning speech recognition we need to know what is &lt;strong&gt;kaldii&lt;/strong&gt; speech recognition Toolkit,
+Asterisk , AGI. I will cover introduction for each in next few articles.&lt;/p&gt;
+
+&lt;p&gt;First lets Know what is actually meant by speech recognition. It is perfectly defined at wikipedia as
+“Speech recognition (SR) is the inter-disciplinary sub-field of computational linguistics which incorporates
+knowledge and research in the linguistics, computer science, and electrical engineering fields to develop 
+methodologies and technologies that enables the recognition and translation of spoken language into text 
+by computers and computerized devices.”&lt;/p&gt;
+
+&lt;p&gt;Speech recognition may be speaker dependent or speaker independent.
+A system trained only with the voice of one speaker works on the voice of that
+speaker is known as speaker dependant because it will not work on any other persons voice. 
+Such kind of system may be used for authentication purposes.&lt;/p&gt;
+
+&lt;p&gt;While speaker independent system is trained on voices of different people and can work on the voices of different people.
+Now lets know what all are the components of Automatic Speech Recognition system:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Signal processing and feature extraction&lt;/li&gt;
+  &lt;li&gt;Acoustic model (AM)&lt;/li&gt;
+  &lt;li&gt;Language model (LM)&lt;/li&gt;
+  &lt;li&gt;Hypothesis search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;signal processing and feature extraction&lt;/strong&gt; component takes as input the audio signal,
+enhances the speech by removing noises and channel distortions, converts the signal from time-domain to frequency-domain,
+and extracts salient feature vectors that are suitable for the following acoustic models.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;acoustic model&lt;/strong&gt; integrates knowledge about acoustics and phonetics, takes as input the 
+features generated from the feature extraction component, and generates an AM score for the variable-length feature 
+sequence.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;language model&lt;/strong&gt; estimates the probability of a hypothesized word sequence, or LM score,
+by learning the correlation between words from a (typically text) training corpora. The LM score often can be estimated
+more accurately if the prior knowledge about the domain or task is known.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;hypothesis search&lt;/strong&gt; component combines AM and LM scores given the feature vector sequence and the hypothesized 
+word sequence, and outputs the word sequence with the highest score as the recognition result.&lt;/p&gt;
+
+&lt;p&gt;In the following articles I will help you how to work practically on ASR and will teach you how to make a simplest
+system of speech recognition.&lt;/p&gt;
+
+&lt;p&gt;In the next article I will continue with the giving introduction on Kaldi Speech Recognition toolkit and provide you with 
+steps on kaldi.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://anchalrani.github.io/automatic%20speech%20recognition/automatic-speech-recognition&quot;&gt;Speech Recogntion&lt;/a&gt; was originally published by Anchal Rani at &lt;a href=&quot;http://anchalrani.github.io&quot;&gt;Easy Concepts&lt;/a&gt; on March 03, 2016.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -64,7 +133,7 @@ devices to communicate, but how are they layed in a network
 and how are the links connected. Are there a number of ways 
 of  arranging  and  connecting  the  devices?  The  answer  is  yes, 
 there are different ways and the way  a network is laid down 
-logically or physically is known as a Topology. &lt;/p&gt;
+logically or physically is known as a Topology.&lt;/p&gt;
 
 &lt;p&gt;There  are  six  types  of  topologies,  some  are  basic  and  some 
 are derived from them. Let us study them one by one&lt;/p&gt;
@@ -74,23 +143,23 @@ link to every other device.
 If there are n devices then no. of links=n(n-1)/2&lt;/p&gt;
 
 &lt;p&gt;Star Topology: Each device has a dedicated point to point link 
-only to central controller usually called a hub. &lt;/p&gt;
+only to central controller usually called a hub.&lt;/p&gt;
 
 &lt;p&gt;Tree  Topology:  is  a  variation  of  star.  Some  are  connected  to 
 central  hub  and  majority  of  devices  are  connected  to  a 
-secondary hub that in turn is connected to central hub. &lt;/p&gt;
+secondary hub that in turn is connected to central hub.&lt;/p&gt;
 
 &lt;p&gt;Bus  Topology:  Its  is  a  multipoint  one  long  cable  acts  as  a 
-backbone to link all devices in a network. &lt;/p&gt;
+backbone to link all devices in a network.&lt;/p&gt;
 
 &lt;p&gt;Ring  Topology:  Each  device  has  a  dedicated  point  to  point 
 line configuration only with the two devices on either side of 
 it. 
 Signal is passed along the ring in one direction from device to 
-device until it reaches its destination. &lt;/p&gt;
+device until it reaches its destination.&lt;/p&gt;
 
 &lt;p&gt;Hybrid   Topology:   It   is   network   that   combines   several 
-topologies as sub-network linked together in a larger way. &lt;/p&gt;
+topologies as sub-network linked together in a larger way.&lt;/p&gt;
 
 &lt;p&gt;We will continue with different networking devices in the next article.&lt;/p&gt;
 
@@ -190,7 +259,7 @@ You must be wondering when&lt;/p&gt;
 &lt;p&gt;Let us assume that we have information about each student in one text file each in a system. Now if we want to access names of students who study in 5 class and who have paid there fees. For this we will have to open each file and note down the name of the students who satisfy the above condition. It becomes very difficult to perform such operations on 100s and 1000s of students.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Data Isolation&lt;/strong&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data Isolation&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Because data are scattered in various files , and files may be in different formats and due to this writing new application programs to retrieve the appropriate data is difficult.&lt;/p&gt;
