@@ -4,7 +4,7 @@ title: Speech Recogntion
 description:
 modified: 2016-03-03
 category: Automatic Speech Recognition
-tags: atomicity integrity redundancy inconsistency ATM data isolation
+tags: speech kaldi recognition asterisk AGI processing acoustic model language speaker
 imagefeature: cover3.jpg
 comments: true
 share: true
