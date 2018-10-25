@@ -27,7 +27,7 @@ chart: true
 {% endfor %}
 
 
-My name is **Anchal Rani**, and this is my personal blog. It currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories
+My name is **Anchal Rani**, and this is my personal blog. It currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories. In further writing I would like to enhance ur knowledge on Machine learning and speech recognition.
 
-I am currently working as a Assistant Professor at Datta Meghe College of Engineering, Airoli, Navi Mumbai.
+I am currently working as a Project Engineer at CDAC Mumbai.
 
