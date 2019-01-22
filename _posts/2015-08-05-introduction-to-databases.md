@@ -78,4 +78,4 @@ When two users access the same file, there is possibility that the file may be l
 Each user must not be able to view all the details of the database for it may be irrelevant for him and it may lead to unauthorised access. For example, a student must be able to see information regarding his course and marks, but not the salary status of the faculties on a university website. But since application programs are added to the file processing systems in an ad hoc manner, enforcing such security constraints is diificult.
 
 
-Next we are going to study some basic terminologies in Databases.
+Next we are going to study some basic terminologies in DBMS
